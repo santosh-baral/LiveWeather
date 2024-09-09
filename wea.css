@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(130, 196, 249);
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 1% 5% 2%;
+}
+.card{
+     width: 40%;
+    border-radius: 3%;
+    padding: 2% 0 2% 2%;
+    background-color: rgb(239, 244, 244);
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+    font-family: 'Playfair Display', serif;
+    font-size:larger;
+}
+.search{
+  display: inline;
+  height: 35px;
+}
+.search-bar{
+    height: 35px;
+    width: 80%;
+    
+}
+input[type=text]{
+    height: 30px;
+    font-size: 20px;
+}
+button{
+    height: 35px;
+    width: 35px;
+}
+.location
+{
+    height: 30%;
+    width: 30%;
+    margin: 2% 0 0% 10%;
+    margin-top: 2%;
+}
+.location button
+{
+    width: 40%;
+}
+
+.error{
+    color: red;
+}
+#get-location{
+    width: 30%;
+}
+#Address{
+    border-radius: 3%;
+    background-color: rgb(239, 244, 244);
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+    font-family: 'Playfair Display', serif;
+    font-size:larger;
+    margin: 0 0 0 10%;
+    padding: 1% 0 0 0;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Weather app
+        </title>
+        <script type="text/javascript" src="script.js" defer></script>
+        <link rel="stylesheet" href="wea.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="location" id="location">
+            <button class="loca" onclick=getlocation()> Get Your Weather </button>
+        </div>
+        <div class="main">
+            <div class="card">
+                <div class="error"></div>
+                <div class="search">
+                    <input type="text" class="search-bar" placeholder="Type Capital City" >
+                        <button>
+                        <img src="sea.svg"/>
+                        </button>
+                </div>  
+                <div class="weather">
+                    <h2 class="city"></h2>
+                    <div class="temp">51°C</div>
+                    <img src="" alt="" class="icon" />
+                    <div class="description"></div>
+                    <div class="humidity"></div>
+                    <div class="wind"></div>
+                </div>
+            </div>
+            <div id="Address">
+            </div> 
+        </div>
+    </body>
+</html>
