@@ -17,10 +17,6 @@ A simple and responsive weather application that allows users to fetch current w
 - OpenWeatherMap API
 - Nominatim API
 
-## Installation
-
-To get started with this weather app, follow these steps:
-
 ## Demo
 ![image](https://github.com/user-attachments/assets/5e417476-9d4a-45bd-a54e-3cb927408a96)
 
