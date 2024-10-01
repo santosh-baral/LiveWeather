@@ -60,6 +60,8 @@ document.querySelector(".search-bar").addEventListener("keyup",function(event){
     }
 });
 
+//display location details
+
 var loca=document.getElementById("location");
 function getlocation()
     {
